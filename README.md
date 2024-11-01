@@ -1,7 +1,4 @@
 # LMDE 6 Install Notes
-[Screenshots](screenshots/screenshots.md)
-![title](screenshots/macbookpro2011.png)
-
 
 ## Post Install Tasks
 
@@ -51,6 +48,9 @@ sudo update-grub
 ```
 lspci -vnnn | grep VGA
 ```
+
+## Sample Screenshot
+![MacbookPro 2011 Screenshot](screenshots/macbookpro2011.png)
 
 ## Resources
 [LMDE 6 Download link](https://linuxmint.com/download_lmde.php)
