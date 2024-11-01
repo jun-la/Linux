@@ -1,6 +1,6 @@
 # LMDE 6 Install Notes
 [Screenshots](screenshots/screenshots.md)
-![title]("screenshots/Screenshot from 2024-10-12 17-25-03.png")
+![title](screenshots/Screenshot from 2024-10-12 17-25-03.png)
 
 ## Post Install Tasks
 
