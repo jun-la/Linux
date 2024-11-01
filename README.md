@@ -12,7 +12,7 @@ sudo apt remove libreoffice* thunderbird celluloid
 ```
 ### Install Packages
 ```
-sudo apt install tmux mosh htop eog audacious rsync git jq vnc lynx moc xfce4-terminal vim-gtk3
+sudo apt install tmux mosh htop eog audacious rsync git jq vnc lynx moc xfce4-terminal vim-gtk3 vlc
 ```
 ### Configuration Files
 - [lynx](config/lynx_config)
