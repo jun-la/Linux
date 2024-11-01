@@ -1,0 +1,11 @@
+set mouse=r
+autocmd VimResized * wincmd =
+filetype plugin on
+if has("gui_running")
+  colorscheme darkblue
+  " GUI is running or is about to start.
+  " Maximize gvim window (for an alternative on Windows, see simalt below).
+  set lines=36 columns=88
+  set guifont=Monospace\ 11
+else
+endif
