@@ -4,4 +4,4 @@
 
 ![alt text]("Screenshot from 2024-10-12 17-25-03.png" "MacbookPro 2011")
 
-![title]("screenshots/Screenshot from 2024-10-12 17-25-03.png")
+![title]("screenshots/macbookpro2011.png")
