@@ -1,8 +1,5 @@
 # LMDE 6 Install Notes
-
-## Resources
-[LMDE 6 Download link](https://linuxmint.com/download_lmde.php)
-
+(Screenshots)[screenshots/screenshots.md]
 
 ## Post Install Tasks
 
@@ -24,7 +21,7 @@ sudo apt install tmux mosh htop eog audacious rsync git jq vnc lynx moc xfce4-te
  - [freetube(deb)](https://freetubeapp.io/#download)
  - [plexamp(flattub)](https://flathub.org/apps/details/com.plexamp.Plexamp)
 
-## Macbook Pro 2011 Specific (disable faulty AMD dGPU)
+## Macbook Pro 2011 Specific (Disable Faulty AMD dGPU)
 
 ### Update /etc/default/grub 
 ```
@@ -52,3 +49,7 @@ sudo update-grub
 ```
 lspci -vnnn | grep VGA
 ```
+
+## Resources
+[LMDE 6 Download link](https://linuxmint.com/download_lmde.php)
+
