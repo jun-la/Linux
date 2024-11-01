@@ -1,5 +1,5 @@
 # LMDE 6 Install Notes
-(Screenshots)[screenshots/screenshots.md]
+[Screenshots](screenshots/screenshots.md)
 
 ## Post Install Tasks
 
