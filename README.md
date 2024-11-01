@@ -18,6 +18,11 @@ sudo apt install tmux mosh htop eog audacious rsync git jq vnc lynx moc xfce4-te
 - [lynx](config/lynx_config)
 - [moc](config/moc)
 - [vnc](config/vnc)
+- [vim](config/vim)
+
+### Other 
+ - [freetube(deb)](https://freetubeapp.io/#download)
+ - [plexamp(flattub)](https://flathub.org/apps/details/com.plexamp.Plexamp)
 
 ## Macbook Pro 2011 Specific (disable faulty AMD dGPU)
 
