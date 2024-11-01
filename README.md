@@ -15,7 +15,7 @@ sudo apt remove libreoffice* thunderbird
 sudo apt install tmux mosh htop eog audacious rsync git jq vnc lynx moc
 ```
 
-## Macbook Pro 2011 Specific
+## Macbook Pro 2011 Specific (disable faulty AMD dGPU)
 
 ### Update /etc/default/grub 
 ```
