@@ -12,8 +12,9 @@ sudo apt remove libreoffice* thunderbird
 ```
 ### Install Packages
 ```
-sudo apt install tmux mosh htop eog audacious rsync git jq vnc lynx moc
+sudo apt install tmux mosh htop eog audacious rsync git jq vnc lynx moc xfce4-terminal
 ```
+
 
 ## Macbook Pro 2011 Specific (disable faulty AMD dGPU)
 
