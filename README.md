@@ -16,7 +16,7 @@ sudo apt install tmux mosh htop eog audacious rsync git jq vnc lynx moc xfce4-te
 - [vnc](config/vnc)
 - [vim](config/vim)
 
-### Other 
+### Other Packages
  - [freetube(deb)](https://freetubeapp.io/#download)
  - [plexamp(flattub)](https://flathub.org/apps/details/com.plexamp.Plexamp)
 
