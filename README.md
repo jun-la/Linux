@@ -15,10 +15,9 @@ sudo apt remove libreoffice* thunderbird
 sudo apt install tmux mosh htop eog audacious rsync git jq vnc lynx moc xfce4-terminal
 ```
 ### Config Files
-[lynx](config/lynx_config)
-[moc](config/moc)
-[vnc](config/vnc)
-
+-- [lynx](config/lynx_config)
+-- [moc](config/moc)
+-- [vnc](config/vnc)
 
 ## Macbook Pro 2011 Specific (disable faulty AMD dGPU)
 
