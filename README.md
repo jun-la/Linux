@@ -1,6 +1,10 @@
-# Install LMDE 6 on 
+# LMDE 6 Install Notes
 
-## After Install 
+## Resources
+[LMDE 6 Download link](https://linuxmint.com/download_lmde.php)
+
+
+## Post Install Tasks
 
 ### Remove packages
 ```
