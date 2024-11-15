@@ -83,7 +83,7 @@ sudo update-grub
 lspci -vnnn | grep VGA
 ```
 
-## Sample Screenshot
+## Sample Screenshots
 ![MacbookPro 2011 Screenshot2](screenshots/screenshot02.png)
 ![MacbookPro 2011 Screenshot1](screenshots/screenshot01.png)
 
