@@ -20,7 +20,7 @@ Evolve III Maestro 11.6" Laptop Computer - Dark Grey Intel Celeron N3450 1.1GHz 
 [Linux Mint 22 Cinnamon Edition](https://www.linuxmint.com/download.php). Everything works including wifi.
 
 ### Sample Screen Shot
-![Maestro Screenshot](screenshots/maestro.png)
+![Maestro Screenshot](../screenshots/maestro.png)
 
 ### Reference
 * [Redit Thread](https://www.reddit.com/r/linuxhardware/comments/tk6hdp/evolve_iii_maestro_ebook_116/)
