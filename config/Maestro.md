@@ -16,6 +16,11 @@ Evolve III Maestro 11.6" Laptop Computer - Dark Grey Intel Celeron N3450 1.1GHz 
 *    LTE Capable
 *    11.6" HD Display
 
+### Installed Distribution
+[Linux Mint 22](https://www.linuxmint.com/download.php) Cinnamon Edition
+
+### Sample Screen Shot
+
 
 ### Reference
 * [Redit Thread](https://www.reddit.com/r/linuxhardware/comments/tk6hdp/evolve_iii_maestro_ebook_116/)
