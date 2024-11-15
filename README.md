@@ -84,8 +84,9 @@ lspci -vnnn | grep VGA
 ```
 
 ## Sample Screenshot
-![MacbookPro 2011 Screenshot](screenshots/macbookpro2011.png)
-![MacbookPro 2011 Screenshot1]("screenshots/Screenshot from 2024-10-26 11-26-35.png")
+![MacbookPro 2011 Screenshot1](screenshots/screenshot01.png)
+![MacbookPro 2011 Screenshot2](screenshots/screenshot02.png)
+
 ## Resources
 [LMDE 6 Download link](https://linuxmint.com/download_lmde.php)
 
