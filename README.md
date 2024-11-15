@@ -8,7 +8,7 @@ sudo apt remove libreoffice* thunderbird celluloid
 ```
 ### Install Packages
 ```
-sudo apt install tmux mosh htop eog audacious rsync git jq vnc lynx moc xfce4-terminal vim-gtk3 vlc
+sudo apt install tmux mosh htop eog audacious rsync git jq lynx moc xfce4-terminal vim-gtk3 vlc
 ```
 ### Configuration Files
 - [lynx](config/lynx_config)
@@ -24,7 +24,11 @@ sudo apt install tmux mosh htop eog audacious rsync git jq vnc lynx moc xfce4-te
 ## VNC
 ```
 sudo apt install tigervnc-standalone-server
+```
+```
 vncpasswd
+```
+```
 vi ~/.vnc/xstartup
 ```
 paste the following
@@ -43,8 +47,11 @@ add alias to .bashrc
 ```
 alias vnc='vncserver :1 -geometry 1920x1200  -localhost no'
 ```
+Other commands
 ```
 vncserver -list
+```
+```
 vncserver -kill :1
 ```
 ## Macbook Pro 2011 Specific (Disable Faulty AMD dGPU)
