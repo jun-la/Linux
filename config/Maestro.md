@@ -1,6 +1,6 @@
 Evolve III Maestro 11.6" Laptop Computer - Dark Grey
 ====================================================
-### Spec
+### Computer Spec
 SKU: 372284
 Mfr Part #: MEB1164G64G4GW10
 UPC: 9356193000022
@@ -17,7 +17,7 @@ Evolve III Maestro 11.6" Laptop Computer - Dark Grey Intel Celeron N3450 1.1GHz 
 *    11.6" HD Display
 
 ### Installed Distribution
-[Linux Mint 22](https://www.linuxmint.com/download.php) Cinnamon Edition
+[Linux Mint 22 Cinnamon Edition](https://www.linuxmint.com/download.php). Everything works including wifi.
 
 ### Sample Screen Shot
 
