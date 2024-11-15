@@ -18,4 +18,7 @@ Evolve III Maestro 11.6" Laptop Computer - Dark Grey Intel Celeron N3450 1.1GHz 
 
 
 ### Reference
-[Redit Thread](https://www.reddit.com/r/linuxhardware/comments/tk6hdp/evolve_iii_maestro_ebook_116/)
+* [Redit Thread](https://www.reddit.com/r/linuxhardware/comments/tk6hdp/evolve_iii_maestro_ebook_116/)
+* [insides, shows LTE Modem slot](https://imgur.com/a/ussxg8d)
+* [WiFi driver](https://forums.linuxmint.com/viewtopic.php?t=374136)
+
