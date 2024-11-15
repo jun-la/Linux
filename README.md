@@ -20,6 +20,33 @@ sudo apt install tmux mosh htop eog audacious rsync git jq vnc lynx moc xfce4-te
  - [freetube(deb)](https://freetubeapp.io/#download)
  - [plexamp(flattub)](https://flathub.org/apps/details/com.plexamp.Plexamp)
 
+
+## VNC
+```
+sudo apt install tigervnc-standalone-server
+vncpasswd
+vi ~/.vnc/xstartup
+```
+paste the following
+```
+#!/bin/bash
+PATH=/usr/bin:/usr/sbin
+unset SESSION_MANAGER
+unset DBUS_SESSION_BUS_ADDRESS
+exec cinnamon-session
+```
+then
+```
+chmod u+x ~/.vnc/xstartup
+```
+add alias to .bashrc
+```
+alias vnc='vncserver :1 -geometry 1920x1200  -localhost no'
+```
+```
+vncserver -list
+vncserver -kill :1
+```
 ## Macbook Pro 2011 Specific (Disable Faulty AMD dGPU)
 
 ### Update /etc/default/grub 
