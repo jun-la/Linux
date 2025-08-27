@@ -57,11 +57,8 @@ vncserver -kill :1
 ### Update /etc/default/grub 
 ```
 GRUB_DEFAULT=0
-GRUB_TIMEOUT_STYLE=hidden
 GRUB_TIMEOUT=0
-GRUB_DISTRIBUTOR=`lsb_release -i -s 2> /dev/null || echo Debian`
-GRUB_CMDLINE_LINUX_DEFAULT="quiet splash radeon.modeset=0 i915.lvds_channel_mode=2 i915.modeset=1"
-GRUB_CMDLINE_LINUX=""
+GRUB_DISTRIBUTOR='Debian'
 ```
 ### Update Grub 
 ```
