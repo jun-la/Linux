@@ -1,4 +1,4 @@
-# LMDE 6 Install Notes
+# Debian 13 Install Notes
 
 ## Post Install Tasks
 
@@ -69,7 +69,3 @@ GRUB_CMDLINE_LINUX=""
 ```
 sudo update-grub
 ```
-## Sample Screenshots
-![MacbookPro 2011 Screenshot2](screenshots/screenshot02.png)
-![MacbookPro 2011 Screenshot1](screenshots/screenshot01.png)
-
