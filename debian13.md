@@ -60,7 +60,7 @@ GRUB_DEFAULT=0
 GRUB_TIMEOUT=0
 GRUB_DISTRIBUTOR='Debian'
 ```
-### Update Grub 
+and run the following
 ```
 sudo update-grub
 ```
