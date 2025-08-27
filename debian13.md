@@ -54,8 +54,6 @@ vncserver -list
 ```
 vncserver -kill :1
 ```
-## Macbook Pro 2011 Specific (Disable Faulty AMD dGPU)
-
 ### Update /etc/default/grub 
 ```
 GRUB_DEFAULT=0
