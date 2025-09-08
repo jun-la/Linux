@@ -64,3 +64,26 @@ and run the following
 ```
 sudo update-grub
 ```
+
+
+### Server sshd ban after attemps
+Install fail2ban package
+```
+apt install fail2ban
+```
+Edit file
+```
+vi /etc/fail2ban/jail.local
+```
+Paste content
+```
+[sshd]
+#Set ban time to 10 minutes
+bantime = 600
+#Decrease the number of failed login attempts before banning to 3
+maxretry=3
+```
+and restart service
+```
+systemctl restart fail2ban
+```
