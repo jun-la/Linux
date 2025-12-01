@@ -1,4 +1,8 @@
 
+Study Links
+------------
 
-[Pytorch Tutorial](https://docs.pytorch.org/tutorials/beginner/basics/intro.html)
+- [Pytorch Tutorial][1]
+
+[1]: https://docs.pytorch.org/tutorials/beginner/basics/intro.html
 
