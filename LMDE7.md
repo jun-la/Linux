@@ -1,5 +1,26 @@
 # LMDE 7 Install Notes
 
+## 
+## Macbook Air 2013 Specific (Hard Drive)
+
+### During Boot
+Presss "e", and add
+```
+intel_iommu=off 
+```
+to the linux line, the F10 to boot.
+
+Do the same for the first boot before the following fix.
+
+### Update /etc/default/grub 
+```
+GRUB_CMDLINE_LINUX="intel_iommu=off"
+```
+and then Update Grub 
+```
+sudo update-grub
+```
+
 ## Post Install Tasks
 
 ### Remove packages
