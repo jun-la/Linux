@@ -11,7 +11,7 @@ and run this to prevent auto upgrade:
 ```
 flatpak mask com.plexamp.Plexamp
 ```
-Reference: [Does not start playback until audio device switched #270]([https://freetubeapp.io/#download](https://github.com/flathub/com.plexamp.Plexamp/issues/270))
+Reference: [Does not start playback until audio device switched #270](https://github.com/flathub/com.plexamp.Plexamp/issues/270)
 
 ## 
 ## Macbook Air 2013 Specific (Hard Drive)
