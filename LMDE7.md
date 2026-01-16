@@ -1,4 +1,4 @@
-# LMDE 7 Install Notes
+# LMDE 7 Macbook Install Notes
 
 ## Plexamp Not Playing
 Downgrade to version 4.12.3
