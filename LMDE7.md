@@ -1,5 +1,18 @@
 # LMDE 7 Install Notes
 
+## Plexamp Not Playing
+Downgrade to version 4.12.3
+```
+sudo flatpak update \
+  --commit=$(flatpak remote-info --log flathub com.plexamp.Plexamp | grep -B1 -F 'to 4.12.3' | sed -e 's/^ \+Commit: \+//' -e 1q) \
+  com.plexamp.Plexamp
+```
+and run this to prevent auto upgrade:
+```
+flatpak mask com.plexamp.Plexamp
+```
+Reference: [Does not start playback until audio device switched #270]([https://freetubeapp.io/#download](https://github.com/flathub/com.plexamp.Plexamp/issues/270))
+
 ## 
 ## Macbook Air 2013 Specific (Hard Drive)
 
