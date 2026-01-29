@@ -1,17 +1,5 @@
 # LMDE 7 Macbook Install Notes
 
-## Plexamp Not Playing
-Downgrade to version 4.12.3
-```
-sudo flatpak update \
-  --commit=$(flatpak remote-info --log flathub com.plexamp.Plexamp | grep -B1 -F 'to 4.12.3' | sed -e 's/^ \+Commit: \+//' -e 1q) \
-  com.plexamp.Plexamp
-```
-and run this to prevent auto upgrade:
-```
-flatpak mask com.plexamp.Plexamp
-```
-Reference: [Does not start playback until audio device switched #270](https://github.com/flathub/com.plexamp.Plexamp/issues/270)
 
 ## 
 ## Macbook Air 2013 Specific (Hard Drive)
@@ -53,6 +41,19 @@ sudo apt install tmux mosh htop eog audacious rsync git jq lynx moc xfce4-termin
 ### Other Packages
  - [freetube(deb)](https://freetubeapp.io/#download)
  - [plexamp(flattub)](https://flathub.org/apps/details/com.plexamp.Plexamp)
+
+## Plexamp Not Playing
+Downgrade to version 4.12.3
+```
+sudo flatpak update \
+  --commit=$(flatpak remote-info --log flathub com.plexamp.Plexamp | grep -B1 -F 'to 4.12.3' | sed -e 's/^ \+Commit: \+//' -e 1q) \
+  com.plexamp.Plexamp
+```
+and run this to prevent auto upgrade:
+```
+flatpak mask com.plexamp.Plexamp
+```
+Reference: [Does not start playback until audio device switched #270](https://github.com/flathub/com.plexamp.Plexamp/issues/270)
 
 
 ## VNC
