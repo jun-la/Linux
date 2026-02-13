@@ -30,8 +30,16 @@ sudo apt remove libreoffice* thunderbird celluloid
 ```
 ### Install Packages
 ```
-sudo apt install tmux mosh htop eog audacious rsync git jq lynx moc xfce4-terminal vim-gtk3 vlc plank
+sudo apt install tmux mosh htop eog audacious rsync git jq lynx moc xfce4-terminal vim-gtk3 vlc plank 
 ```
+### (Laptop Only) Battery Management
+```
+sudo apt install tlp tlp-rdw
+sudo systemctl enable tlp
+sudo systemctl start tlp
+```
+###
+
 ### Configuration Files
 - [lynx](config/lynx_config)
 - [moc](config/moc)
@@ -122,5 +130,5 @@ lspci -vnnn | grep VGA
 ![MacbookPro 2011 Screenshot1](screenshots/screenshot01.png)
 
 ## Resources
-[LMDE 6 Download link](https://linuxmint.com/download_lmde.php)
+[LMDE 7 Download link](https://linuxmint.com/download_lmde.php)
 
