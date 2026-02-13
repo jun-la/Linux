@@ -1,26 +1,7 @@
 # LMDE 7 Macbook Install Notes
 
 
-## 
-## Macbook Air 2013 Specific (Hard Drive)
 
-### During Boot
-Presss "e", and add
-```
-intel_iommu=off 
-```
-to the linux line, the F10 to boot.
-
-Do the same for the first boot before the following fix.
-
-### Update /etc/default/grub 
-```
-GRUB_CMDLINE_LINUX="intel_iommu=off"
-```
-and then Update Grub 
-```
-sudo update-grub
-```
 
 ## Post Install Tasks
 
@@ -97,6 +78,27 @@ vncserver -list
 ```
 vncserver -kill :1
 ```
+
+## Macbook Air 2013 Specific (Hard Drive)
+
+### During Boot
+Presss "e", and add
+```
+intel_iommu=off 
+```
+to the linux line, the F10 to boot.
+
+Do the same for the first boot before the following fix.
+
+### Update /etc/default/grub 
+```
+GRUB_CMDLINE_LINUX="intel_iommu=off"
+```
+and then Update Grub 
+```
+sudo update-grub
+```
+
 ## Macbook Pro 2011 Specific (Disable Faulty AMD dGPU)
 
 ### Update /etc/default/grub 
