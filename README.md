@@ -1,4 +1,26 @@
-# LMDE 6 Install Notes
+# LMDE 7 Macbook Install Notes
+
+
+## 
+## Macbook Air 2013 Specific (Hard Drive)
+
+### During Boot
+Presss "e", and add
+```
+intel_iommu=off 
+```
+to the linux line, the F10 to boot.
+
+Do the same for the first boot before the following fix.
+
+### Update /etc/default/grub 
+```
+GRUB_CMDLINE_LINUX="intel_iommu=off"
+```
+and then Update Grub 
+```
+sudo update-grub
+```
 
 ## Post Install Tasks
 
@@ -8,7 +30,7 @@ sudo apt remove libreoffice* thunderbird celluloid
 ```
 ### Install Packages
 ```
-sudo apt install tmux mosh htop eog audacious rsync git jq lynx moc xfce4-terminal vim-gtk3 vlc openssh-server
+sudo apt install tmux mosh htop eog audacious rsync git jq lynx moc xfce4-terminal vim-gtk3 vlc plank
 ```
 ### Configuration Files
 - [lynx](config/lynx_config)
@@ -19,6 +41,19 @@ sudo apt install tmux mosh htop eog audacious rsync git jq lynx moc xfce4-termin
 ### Other Packages
  - [freetube(deb)](https://freetubeapp.io/#download)
  - [plexamp(flattub)](https://flathub.org/apps/details/com.plexamp.Plexamp)
+
+## Plexamp Not Playing
+Downgrade to version 4.12.3
+```
+sudo flatpak update \
+  --commit=$(flatpak remote-info --log flathub com.plexamp.Plexamp | grep -B1 -F 'to 4.12.3' | sed -e 's/^ \+Commit: \+//' -e 1q) \
+  com.plexamp.Plexamp
+```
+and run this to prevent auto upgrade:
+```
+flatpak mask com.plexamp.Plexamp
+```
+Reference: [Does not start playback until audio device switched #270](https://github.com/flathub/com.plexamp.Plexamp/issues/270)
 
 
 ## VNC
