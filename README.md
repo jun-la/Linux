@@ -1,4 +1,4 @@
-# LMDE 7 Macbook Install Notes
+# LMDE 7 Install Notes
 
 
 
@@ -78,6 +78,18 @@ vncserver -list
 ```
 vncserver -kill :1
 ```
+
+## Acer Chromebook C740
+
+1. Press and hold Esc + Refresh , then press Power. Let go of Power
+
+2. Hit "Ctrl + D" Several Times
+
+3. Follow [instructions](https://docs.mrchromebox.tech/docs/getting-started.html)
+   
+https://chromium.googlesource.com/chromiumos/docs/+/master/debug_buttons.md#firmware-keyboard-interface
+
+
 
 ## Macbook Air 2013 Specific (Hard Drive)
 
