@@ -50,41 +50,6 @@ flatpak mask com.plexamp.Plexamp
 ```
 Reference: [Does not start playback until audio device switched #270](https://github.com/flathub/com.plexamp.Plexamp/issues/270)
 
-
-## VNC
-```
-sudo apt install tigervnc-standalone-server
-```
-```
-vncpasswd
-```
-```
-vi ~/.vnc/xstartup
-```
-paste the following
-```
-#!/bin/bash
-PATH=/usr/bin:/usr/sbin
-unset SESSION_MANAGER
-unset DBUS_SESSION_BUS_ADDRESS
-exec cinnamon-session
-```
-then
-```
-chmod u+x ~/.vnc/xstartup
-```
-add alias to .bashrc
-```
-alias vnc='vncserver :1 -geometry 1920x1200  -localhost no'
-```
-Other commands
-```
-vncserver -list
-```
-```
-vncserver -kill :1
-```
-
 ## Acer Chromebook C740
 
 1. Press and hold Esc + Refresh , then press Power. Let go of Power [Source](https://chromium.googlesource.com/chromiumos/docs/+/master/debug_buttons.md#firmware-keyboard-interface)
@@ -141,6 +106,42 @@ sudo update-grub
 ```
 lspci -vnnn | grep VGA
 ```
+
+## VNC
+```
+sudo apt install tigervnc-standalone-server
+```
+```
+vncpasswd
+```
+```
+vi ~/.vnc/xstartup
+```
+paste the following
+```
+#!/bin/bash
+PATH=/usr/bin:/usr/sbin
+unset SESSION_MANAGER
+unset DBUS_SESSION_BUS_ADDRESS
+exec cinnamon-session
+```
+then
+```
+chmod u+x ~/.vnc/xstartup
+```
+add alias to .bashrc
+```
+alias vnc='vncserver :1 -geometry 1920x1200  -localhost no'
+```
+Other commands
+```
+vncserver -list
+```
+```
+vncserver -kill :1
+```
+
+
 ## Sample Screenshots
 ![MacbookPro 2011 Screenshot2](screenshots/screenshot02.png)
 ![MacbookPro 2011 Screenshot1](screenshots/screenshot01.png)
