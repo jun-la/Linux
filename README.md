@@ -87,16 +87,12 @@ vncserver -kill :1
 
 ## Acer Chromebook C740
 
-1. Press and hold Esc + Refresh , then press Power. Let go of Power
+1. Press and hold Esc + Refresh , then press Power. Let go of Power [Source](https://chromium.googlesource.com/chromiumos/docs/+/master/debug_buttons.md#firmware-keyboard-interface)
 
 2. Hit "Ctrl + D" Several Times
 
-3. Follow [instructions](https://docs.mrchromebox.tech/docs/getting-started.html)
+3. Follow [instructions]([https://docs.mrchromebox.tech/docs/getting-started.html](https://docs.mrchromebox.tech/docs/getting-started.html#replacing-chromeos-via-full-rom-firmware))
    
-https://chromium.googlesource.com/chromiumos/docs/+/master/debug_buttons.md#firmware-keyboard-interface
-
-
-
 ## Macbook Air 2013 Specific (Hard Drive)
 
 ### During Boot
