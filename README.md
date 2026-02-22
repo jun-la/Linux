@@ -19,7 +19,13 @@ sudo apt install tlp tlp-rdw
 sudo systemctl enable tlp
 sudo systemctl start tlp
 ```
-###
+
+### Customize Terminal
+All to the end of .bashrc file:
+```
+PS1="[\u@\h:\w]\\$ "
+alias rm='rm -i'
+```
 
 ### Configuration Files
 - [lynx](config/lynx_config)
