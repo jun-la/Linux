@@ -143,7 +143,7 @@ vncserver -kill :1
 
 
 ## Sample Screenshots
-![MacbookPro 2011 Screenshot2](screenshots/2026-02-26%2023-38-05.png)
+![MacbookPro 2011 Screenshot2](screenshots/Screenshot%20from%202026-02-26%2023-38-05.png)
 ![MacbookPro 2011 Screenshot1](screenshots/screenshot01.png)
 
 ## Resources
